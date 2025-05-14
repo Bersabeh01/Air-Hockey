@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=600, initial-scale=1.0">
+    <title>Air Hockey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Air Hockey</h1>
+        <div class="controls">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="restartBtn">Restart</button>
+        </div>
+        <canvas id="hockeyTable" width="600" height="400"></canvas>
+        <div class="scoreboard">
+            <span>Счет:</span>
+            <span id="score1">0</span> : <span id="score2">0</span>
+        </div>
+    </div>
+    <script src="list.js"></script>
+</body>
+</html>
